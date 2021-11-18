@@ -42,7 +42,7 @@ public class SignUpTest {
         cmdContinue.click();
 
         //Убедится, что перешли на страницу ввода регистрационных данных пользователя:
-        // на странице есть кнопка "Register"
+        //на странице есть кнопка "Register"
         boolean isDisplaed = driver.findElement(By.xpath(xpathcmdRegister)).isDisplayed();
         Assert.assertTrue(isDisplaed);
 
