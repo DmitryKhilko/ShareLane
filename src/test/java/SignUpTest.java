@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SignUpTest {
+
     //Путь к chromedriver.exe
     public String pathChromedriver = "src/test/resources/chromedriver.exe";
     //Адрес страницы регистрации
