@@ -140,4 +140,46 @@ public class SignUpTest {
         //Закрыть браузер
         driver.quit();
     }
+
+    //Негативный тест на попытку регистрации на сайте при всех пустых полях страницы регистрации
+    @Test
+    public void allEmptyInputFieldsRegister() {
+
+    }
+
+    //Негативный тест на попытку регистрации на сайте при пустом поле "First Name" и заполненных корректными значениями
+    // остальных полей
+    @Test
+    public void onlyEmptyFieldFirstNameRegister() {
+
+    }
+
+    //Негативный тест на попытку регистрации на сайте при пустом поле "Last Name" и заполненных корректными значениями
+    // остальных полей
+    @Test
+    public void onlyEmptyFieldLastNameRegister() {
+
+    }
+
+    //Негативный тест на попытку регистрации на сайте при пустом поле "Email" и заполненных корректными значениями
+    // остальных полей
+    @Test
+    public void onlyEmptyFieldEmailRegister() {
+
+    }
+
+    //Негативный тест на попытку регистрации на сайте при пустом поле "Password" и заполненных корректными значениями
+    // остальных полей
+    @Test
+    public void onlyEmptyFieldPasswordRegister() {
+
+    }
+
+    //Негативный тест на попытку регистрации на сайте при пустом поле "Confirm Password" и заполненных корректными
+    // начениями остальных полей
+    @Test
+    public void onlyEmptyFieldConfirmPasswordRegister() {
+
+    }
+
 }
